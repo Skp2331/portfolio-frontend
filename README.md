@@ -1,104 +1,85 @@
-📌 Portfolio — Som Kumar Pawar
+# Som Kumar Pawar – Portfolio (Frontend)
 
-A modern, responsive, and animated developer portfolio built using Next.js 16, showcasing skills, projects, achievements, resume, and an integrated AI-powered chatbot.
+A modern, aesthetic, and highly interactive developer portfolio built using **Next.js 16**, **TypeScript**, **TailwindCSS**, **Framer Motion**, and **custom animations**.  
+This portfolio highlights my full-stack development work, AI integrations, Java projects, and overall engineering journey.
 
-🚀 Live Demo
+🌐 **Live URL:** https://portfolio-frontend-fq37.vercel.app  
+🔗 **Backend API:** https://portfolio-backend-xbxf.onrender.com
 
-🔗 Frontend (Vercel): https://your-frontend-url.vercel.app
+---
 
-🔗 Backend API: https://portfolio-backend-xbxf.onrender.com
+## 🚀 Features
 
-⭐ Features
-🎨 Modern UI/UX
+### 🎨 Modern UI/UX
+- Gradient backgrounds & particle animations  
+- Smooth scroll & framer-motion animations  
+- Fully responsive for all devices  
 
-Fully responsive design (mobile + desktop)
+### 🧠 AI Chatbot (Personal Assistant)
+- Custom-built conversational assistant using OpenAI  
+- Answers questions about my skills, projects, and journey  
+- Real-time chat with typing indicators  
 
-Smooth animations with Framer Motion
+### 🧱 Projects Section (Dynamic)
+- AI SaaS project (Imagify)  
+- SoundScape music mood app  
+- Full-stack chat app  
+- Java + MySQL Bank System  
+- Project modal preview with tech badges  
 
-Custom cursor glow, section reveal animations
+### 🛠 Tech Stack Section
+Interactive icons for:
+- React, Next.js, Node.js, Express  
+- MongoDB, MySQL, Java  
+- Git, GitHub, Postman  
+- Docker, Vercel  
 
-Clean and professional layout
+### 📄 Resume Download
+Instant download from navbar & hero section.
 
-🧠 AI-Powered Chatbot
+### 📬 Contact Section
+Integrated contact form + professional layout.
 
-Integrated with OpenAI (gpt-4o-mini)
+---
 
-Provides information about skills, projects, experience
+## 🏗 Tech Stack
 
-Works with backend Express API
+**Frontend Framework:** Next.js 16 (Turbopack)  
+**Styling:** TailwindCSS  
+**Animations:** Framer Motion  
+**Language:** TypeScript  
+**Deployment:** Vercel  
 
-🧩 Portfolio Sections
+---
 
-Hero section (intro + CTA)
+## ⚙️ Environment Variables
 
-Skills (TechStack icons)
-
-Projects (modal view + images)
-
-Achievements
-
-Contact form
-
-Resume (Direct download)
-
-AI Chat Assistant
-
-⚙️ Tech Stack
-
-Next.js 16 (App Router + Turbopack)
-
-TypeScript
-
-Tailwind CSS
-
-Framer Motion
-
-React Icons
-
-Axios
-
-Vercel Hosting
-
-🛠️ Environment Setup
-
-Create a .env.local file:
+Create a `.env.local` file:
 
 NEXT_PUBLIC_API_BASE_URL="https://portfolio-backend-xbxf.onrender.com"
 
+yaml
+Copy code
 
-Install dependencies:
+---
+
+## ▶️ Running Locally
 
 npm install
-
-
-Run locally:
-
 npm run dev
 
-🏗️ Deployment
+yaml
+Copy code
 
-This project is deployed on Vercel:
+Runs at: http://localhost:3000
 
-vercel deploy
+---
 
-📁 Project Structure
-app/
- ├── components/
- ├── page.tsx
- ├── layout.tsx
- ├── globals.css
-public/
- ├── Resume_SomKP.pdf
- ├── projects/
+## 📦 Deployment  
+Deployed on **Vercel** with automatic backend integration.
 
-📸 Screenshots (optional placeholders)
+---
 
-Add screenshots of your deployed portfolio for visual impact.
-
-👤 Author
-
-Som Kumar Pawar
-Full-Stack Developer | MERN | Java | AI Integrations
-Portfolio: https://your-frontend-url.vercel.app
-
-GitHub: https://github.com/Skp2331
+## 👤 Author  
+**Som Kumar Pawar**  
+Full Stack Developer • Java • MERN • AI 
