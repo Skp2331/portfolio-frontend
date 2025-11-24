@@ -22,7 +22,7 @@ export default function Loader() {
         >
           <motion.div
             initial={{ scale: 0.8, opacity: 0.6 }}
-            animate={{ scale: 1, opacity: 1 }}
+            animate={{ scale: 1, opacity: 1 }}  
             transition={{
               repeat: Infinity,
               repeatType: "mirror",

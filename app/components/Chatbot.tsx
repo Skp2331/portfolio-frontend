@@ -23,7 +23,12 @@ export default function Chatbot() {
   const sendMessage = async () => {
     if (!input.trim()) return;
 
-    const newMessages = [...messages, { role: "user", content: input.trim() }];
+    // ✅ FIXED TYPE ERROR
+    const newMessages: Message[] = [
+      ...messages,
+      { role: "user", content: input.trim() },
+    ];
+
     setMessages(newMessages);
     setInput("");
     setLoading(true);
@@ -62,10 +67,8 @@ export default function Chatbot() {
 
   return (
     <div className="fixed bottom-6 left-6 z-50">
-
       {open ? (
         <div className="w-80 h-96 bg-slate-900/90 backdrop-blur-xl border border-slate-700 rounded-2xl p-4 flex flex-col shadow-[0_0_20px_rgba(56,189,248,0.25)] animate-slideUp">
-
           {/* Header */}
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center gap-2">
@@ -125,7 +128,6 @@ export default function Chatbot() {
               Send
             </button>
           </div>
-
         </div>
       ) : (
         <button
@@ -135,7 +137,6 @@ export default function Chatbot() {
           🤖 Chat with AI
         </button>
       )}
-
     </div>
   );
 }
