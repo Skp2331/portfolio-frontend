@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 Portfolio — Som Kumar Pawar
 
-## Getting Started
+A modern, responsive, and animated developer portfolio built using Next.js 16, showcasing skills, projects, achievements, resume, and an integrated AI-powered chatbot.
 
-First, run the development server:
+🚀 Live Demo
 
-```bash
+🔗 Frontend (Vercel): https://your-frontend-url.vercel.app
+
+🔗 Backend API: https://portfolio-backend-xbxf.onrender.com
+
+⭐ Features
+🎨 Modern UI/UX
+
+Fully responsive design (mobile + desktop)
+
+Smooth animations with Framer Motion
+
+Custom cursor glow, section reveal animations
+
+Clean and professional layout
+
+🧠 AI-Powered Chatbot
+
+Integrated with OpenAI (gpt-4o-mini)
+
+Provides information about skills, projects, experience
+
+Works with backend Express API
+
+🧩 Portfolio Sections
+
+Hero section (intro + CTA)
+
+Skills (TechStack icons)
+
+Projects (modal view + images)
+
+Achievements
+
+Contact form
+
+Resume (Direct download)
+
+AI Chat Assistant
+
+⚙️ Tech Stack
+
+Next.js 16 (App Router + Turbopack)
+
+TypeScript
+
+Tailwind CSS
+
+Framer Motion
+
+React Icons
+
+Axios
+
+Vercel Hosting
+
+🛠️ Environment Setup
+
+Create a .env.local file:
+
+NEXT_PUBLIC_API_BASE_URL="https://portfolio-backend-xbxf.onrender.com"
+
+
+Install dependencies:
+
+npm install
+
+
+Run locally:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🏗️ Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is deployed on Vercel:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+vercel deploy
 
-## Learn More
+📁 Project Structure
+app/
+ ├── components/
+ ├── page.tsx
+ ├── layout.tsx
+ ├── globals.css
+public/
+ ├── Resume_SomKP.pdf
+ ├── projects/
 
-To learn more about Next.js, take a look at the following resources:
+📸 Screenshots (optional placeholders)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add screenshots of your deployed portfolio for visual impact.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👤 Author
 
-## Deploy on Vercel
+Som Kumar Pawar
+Full-Stack Developer | MERN | Java | AI Integrations
+Portfolio: https://your-frontend-url.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/Skp2331
